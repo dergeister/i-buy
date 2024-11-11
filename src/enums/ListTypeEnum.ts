@@ -1,6 +1,6 @@
-enum ListType {
+enum GroceryListType {
   TEMPLATE,
   COMPLETABLE
 }
 
-export { ListType }
+export { GroceryListType }

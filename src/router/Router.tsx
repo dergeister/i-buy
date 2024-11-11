@@ -5,7 +5,7 @@ import { DefaultLayout } from '../layouts/DefaultLayout'
 import { App } from '../views/App'
 import { NotFound } from '../views/NotFound'
 
-import { CategoryView } from '../views/CategoryView'
+import { GroceryItemView } from '../views/GroceryItemView'
 
 const Router = () => {
   return (
@@ -19,8 +19,8 @@ const Router = () => {
           element={<App />}
         />
         <Route
-          path="/category"
-          element={<CategoryView />}
+          path="/groceryItem"
+          element={<GroceryItemView />}
         />
         <Route
           path="*"
